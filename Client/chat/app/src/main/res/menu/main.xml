@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/organization"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/addfriend"
+        android:orderInCategory="100"
+        android:title="@string/add_friend"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/addnews"
+        android:orderInCategory="100"
+        android:title="@string/add_news"
+        app:showAsAction="never" />
+</menu>

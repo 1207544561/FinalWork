@@ -1,0 +1,20 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">chat</string>
+    <string name="findpwd">findpassword</string>
+    <string name="register">输入手机号码</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="HeaderUsername">%1$s</string>
+    <string name="HeaderEmail">%1$s</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">创建群</string>
+    <string name="add_friend">添加好友</string>
+    <string name="add_news">发动态</string>
+
+    <string name="menu_home">好友</string>
+    <string name="menu_gallery">消息</string>
+    <string name="menu_slideshow">社区</string>
+    <string name="menu_tools">设置</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_send">关于我们</string>
+</resources>
