@@ -123,7 +123,7 @@ public class SlideshowFragment extends Fragment {
         StringBuilder result = new StringBuilder();
         List<NewsModel> list = new ArrayList<>();
         //学院无线:10.31.18.228   寝室无线:192.168.0.105
-        String url = "http://192.168.0.114:8080/project1/GetNews";
+        String url = "http://120.79.114.234/project1/GetNews";
         HttpPost httpPost = new HttpPost(url);
         try {
             JSONObject json = new JSONObject();

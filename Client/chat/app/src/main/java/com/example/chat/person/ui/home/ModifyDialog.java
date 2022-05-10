@@ -10,10 +10,7 @@ import android.widget.TextView;
 
 import com.example.chat.R;
 
-/*
- *@author Eric
- *@2016-1-14下午2:16:39
- */
+
 public class ModifyDialog extends Dialog {
     private TextView text_title;
     private EditText edit_modify;

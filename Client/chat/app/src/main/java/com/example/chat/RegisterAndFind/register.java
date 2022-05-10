@@ -103,10 +103,9 @@ public class register extends AppCompatActivity {
                                 public void onClick(View v) {
                                     String REGEX_EMAIL = "^([a-z0-9A-Z]+[-|\\.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-zA-Z]{2,}$";
                                     EditText Number = (EditText)findViewById(R.id.number), Email = (EditText)findViewById(R.id.email), Pwd = (EditText)findViewById(R.id.pwd),
-                                            Rpwd = (EditText)findViewById(R.id.rpwd);
+                                    Rpwd = (EditText)findViewById(R.id.rpwd);
                                     String NumberText = Number.getText().toString(), EmailText = Email.getText().toString(), PwdText = Pwd.getText().toString(),
-                                            RpwdText = Rpwd.getText().toString();
-//                if(dbOperator.getCount(NumberText) > 0) {
+                                    RpwdText = Rpwd.getText().toString();
                                     if(UserNameList.contains(NumberText)) {
                                         Toast.makeText(register.this, "用户已存在,请登录", Toast.LENGTH_SHORT).show();
                                         Intent intent = new Intent(register.this, MainActivity.class);
@@ -128,7 +127,7 @@ public class register extends AppCompatActivity {
                                         Bundle bundle = new Bundle();
 
                                         //传递username参数
-                                        bundle.putString( "username", NumberText);
+                                        bundle.putString("username", NumberText);
                                         intent.putExtras(bundle);
                                         startActivity(intent);
                                         finish();
@@ -207,7 +206,7 @@ public class register extends AppCompatActivity {
         //向Servlet发送数据用于操作数据库
         StringBuilder result = new StringBuilder();
         //学院无线:10.31.18.228   寝室无线:192.168.0.105
-        String url = "http://192.168.0.114:8080/project1/CreateUser";
+        String url = "http://120.79.114.234/project1/CreateUser";
         HttpPost httpPost = new HttpPost(url);
         try {
             JSONObject json = new JSONObject();
@@ -262,7 +261,7 @@ public class register extends AppCompatActivity {
         List<UserModel> TotalUserList = new ArrayList<>();
         StringBuilder result = new StringBuilder();
         //学院无线:10.31.18.228   寝室无线:192.168.0.105
-        String url = "http://192.168.0.114:8080/project1/GetUserList";
+        String url = "http://120.79.114.234/project1/GetUserList";
         HttpPost httpPost = new HttpPost(url);
         try {
             JSONObject json = new JSONObject();

@@ -125,7 +125,7 @@ public class MessageMain extends AppCompatActivity {
         List<MessageModel> list = new ArrayList<>();
         StringBuilder result = new StringBuilder();
         //学院无线:10.31.18.228   寝室无线:192.168.0.105 三号ip:192.168.43.200
-        String url = "http://192.168.0.114:8080/project1/GetLastMessage";
+        String url = "http://120.79.114.234/project1/GetLastMessage";
         HttpPost httpPost = new HttpPost(url);
         try {
             JSONObject json = new JSONObject();
@@ -202,7 +202,7 @@ public class MessageMain extends AppCompatActivity {
         List<MessageModel> list = new ArrayList<>();
         StringBuilder result = new StringBuilder();
         //学院无线:10.31.18.228   寝室无线:192.168.0.105 三号ip:192.168.43.200
-        String url = "http://192.168.0.114:8080/project1/SaveMessage";
+        String url = "http://120.79.114.234/project1/SaveMessage";
         HttpPost httpPost = new HttpPost(url);
         try {
             JSONObject json = new JSONObject();

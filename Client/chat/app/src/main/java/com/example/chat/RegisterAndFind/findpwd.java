@@ -111,7 +111,7 @@ public class findpwd extends AppCompatActivity {
         //向Servlet发送数据用于操作数据库
         StringBuilder result = new StringBuilder();
         //学院无线:10.31.18.228   寝室无线:192.168.0.105
-        String url = "http://192.168.0.114:8080/project1/FindPwd";
+        String url = "http://120.79.114.234/project1/FindPwd";
         HttpPost httpPost = new HttpPost(url);
         try {
             JSONObject json = new JSONObject();

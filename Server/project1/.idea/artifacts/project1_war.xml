@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="project1:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/project1_war</output-path>
+    <root id="archive" name="project1_war.war">
+      <element id="artifact" artifact-name="project1:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.20" />
+          <element id="library" level="project" name="ezmorph-1.0.6" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="commons-lang-2.6" />
+          <element id="library" level="project" name="commons-collections-3.1" />
+          <element id="library" level="project" name="commons-beanutils-1.9.3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

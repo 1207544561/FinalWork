@@ -6,7 +6,7 @@ import java.sql.*;
 
 public class DButil {
     private String Url="jdbc:mysql://localhost:3306/chatdb?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8";
-    private String UserName = "root", PassWord = "163cn445";
+    private String UserName = "root", PassWord = "163Cn445!";
     private String driver = "com.mysql.cj.jdbc.Driver";
 
     public Connection GetConnection() { //数据库连接
